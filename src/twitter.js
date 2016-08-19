@@ -144,6 +144,7 @@ TwitterStreaming = (function(superClass) {
     request = this.consumer.get("https://" + this.domain + path, this.token, this.tokensecret, null);
     request.on("response", function(response) {
       response.on("data", function(chunk) {
+        console.log(chunk);
         return parseResponse(chunk + '', callback);
       });
       response.on("end", function(data) {
