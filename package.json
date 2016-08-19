@@ -1,11 +1,11 @@
 {
-  "name": "hubot-twitter",
-  "version": "2.1.0",
-  "author": "Mathilde Lemee",
+  "name": "hubot-twitterx",
+  "version": "1.0",
+  "author": "Felipe Sabino <fgsabino@gmail.com>",
   "keywords": [
     "github hubot twitter adapter"
   ],
-  "description": "A Twitter adapter for hubot",
+  "description": "A Twitter adapter for hubot prepared for hubot-ector",
   "licenses": [
     {
       "type": "MIT",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mathildelemee/hubot-twitter.git"
+    "url": "git://github.com/sabino/hubot-twitter.git"
   },
   "dependencies": {
     "oauth": "0.9.10"
