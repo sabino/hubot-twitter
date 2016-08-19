@@ -1,6 +1,6 @@
 {
   "name": "hubot-twitterx",
-  "version": "1.0",
+  "version": "1.0.0",
   "author": "Felipe Sabino <fgsabino@gmail.com>",
   "keywords": [
     "github hubot twitter adapter"
